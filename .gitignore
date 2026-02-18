@@ -1,0 +1,49 @@
+# Data files (large, downloaded separately)
+data/raw/
+data/processed/
+data/outputs/
+*.parquet
+*.zip
+!chexbert_labels.zip
+
+# Model artifacts
+models/*.pkl
+models/*.joblib
+models/*.pt
+models/*.safetensors
+models/*.bin
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.egg-info/
+dist/
+build/
+*.egg
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Logs
+*.log
+wandb/
+
+# Secrets
+.env
+*.key
